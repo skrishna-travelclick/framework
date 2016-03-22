@@ -4,7 +4,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
-        features = {"//features"},//path to the features
+        features = {"src/features/"},//path to the features
         glue = {"com.automation.framework.step_definitions"},
         plugin = {"pretty", "json:target/cucumber.json"},//what formatters to use
         tags = {"@login"}
