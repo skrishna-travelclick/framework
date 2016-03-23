@@ -11,6 +11,7 @@ com\automation\framework\page_objects\WebDriverListener.class
 com\automation\framework\constants\ApplicationConstants.class
 com\automation\framework\App.class
 com\automation\framework\page_objects\BrowserDriver$BrowserCleanup.class
+com\automation\framework\bean\example.class
 com\automation\framework\constants\Browsers.class
 com\automation\framework\constants\SheetIds.class
 com\automation\framework\page_objects\BrowserFactory$1.class

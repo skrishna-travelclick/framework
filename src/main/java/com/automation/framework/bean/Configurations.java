@@ -3,6 +3,8 @@ package com.automation.framework.bean;
 public class Configurations {
     private String hostURL; 
     private String seleniumHubUrl;
+    private static String tags;
+    public static final String tag  = "@login";
  //   private int threadCount;
 
     // private Map<String, GridNode> gridNodes;
@@ -24,6 +26,15 @@ public class Configurations {
     public void setSeleniumHubUrl(final String seleniumHubUrl) {
         this.seleniumHubUrl = seleniumHubUrl;
     }
+    
+    public static String getTags() {
+    	return tags;
+    }
+    
+    public void setTags(final String tags) {
+    	this.tags = "@login";
+    }
+    
 
     
     
