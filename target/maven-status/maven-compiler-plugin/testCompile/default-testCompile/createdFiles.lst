@@ -1,0 +1,5 @@
+com\automation\framework\runners\CukesTest.class
+com\automation\framework\step_definitions\AuthenticationSteps.class
+com\automation\framework\runners\DriverTest.class
+com\automation\framework\runners\SuiteListener.class
+com\automation\framework\step_definitions\BeforeAfterHooks.class

@@ -1,0 +1,83 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Login Success and Failure",
+        "description": "",
+        "id": "test-login;login-success-and-failure;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I navigate to the insite application",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I try to login with \u0027valid\u0027 credentials",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I should see that I logged in \u0027successfully\u0027",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login"
+          },
+          {
+            "line": 1,
+            "name": "@user"
+          },
+          {
+            "line": 1,
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Test Login",
+    "description": "",
+    "id": "test-login",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      },
+      {
+        "line": 1,
+        "name": "@all"
+      },
+      {
+        "line": 1,
+        "name": "@user"
+      }
+    ]
+  }
+]

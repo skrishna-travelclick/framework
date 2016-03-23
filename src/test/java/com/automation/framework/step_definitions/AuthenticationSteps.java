@@ -4,6 +4,7 @@ import java.util.logging.Logger;
 
 import com.automation.framework.bean.Configurations;
 import com.automation.framework.util.ConfigurationsUtil;
+
 //import com.travelclick.insite.NavigatorFactory;
 
 import cucumber.api.java.en.Given;
@@ -34,4 +35,5 @@ public class AuthenticationSteps {
 		LOGGER.info("Entering: I should see that I logged in " + outcome);
 	//	NavigatorFactory.getNavigator().then_I_login(outcome);		
 	}
+	
 }

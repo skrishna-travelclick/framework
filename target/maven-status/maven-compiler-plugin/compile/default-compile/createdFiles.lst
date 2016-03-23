@@ -1,0 +1,16 @@
+com\automation\framework\util\ReportMerger.class
+com\automation\framework\page_objects\BrowserDriver$1.class
+com\automation\framework\page_objects\BrowserDriver.class
+com\automation\framework\page_objects\view\LoginView.class
+com\automation\framework\util\ConfigurationsUtil.class
+com\automation\framework\page_objects\BrowserFactory.class
+com\automation\framework\page_objects\containers\LoginPageContainer.class
+com\automation\framework\util\FileUtil.class
+com\automation\framework\bean\Configurations.class
+com\automation\framework\page_objects\WebDriverListener.class
+com\automation\framework\constants\ApplicationConstants.class
+com\automation\framework\App.class
+com\automation\framework\page_objects\BrowserDriver$BrowserCleanup.class
+com\automation\framework\constants\Browsers.class
+com\automation\framework\constants\SheetIds.class
+com\automation\framework\page_objects\BrowserFactory$1.class

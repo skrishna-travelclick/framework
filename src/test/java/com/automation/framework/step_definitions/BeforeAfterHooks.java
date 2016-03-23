@@ -14,8 +14,9 @@ import java.util.logging.Logger;
  * @src: https://github.com/cucumber/cucumber-jvm/blob/master/examples/java-webbit-websockets-selenium/src/test/java/cucumber/examples/java/websockets/SharedDriver.java
  * @author: https://github.com/aslakhellesoy
  */
-public class BeforeAfterHooks {
 
+public class BeforeAfterHooks {
+	
     static Logger log;
 
     static {
@@ -49,4 +50,5 @@ public class BeforeAfterHooks {
             }
         }
     }
+
 }

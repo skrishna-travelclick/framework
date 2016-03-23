@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="run tests in parallel" duration-ms="351" started-at="2016-03-23T13:29:25Z" finished-at="2016-03-23T13:29:26Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.automation.framework.runners.CukesTest@6debcae2]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Tests in FF" duration-ms="351" started-at="2016-03-23T13:29:25Z" finished-at="2016-03-23T13:29:26Z">
+      <class name="com.automation.framework.runners.CukesTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.automation.framework.runners.CukesTest@6debcae2]" name="setUpClass" is-config="true" duration-ms="211" started-at="2016-03-23T08:29:25Z" finished-at="2016-03-23T08:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.automation.framework.runners.CukesTest@6debcae2]" name="feature" duration-ms="25" started-at="2016-03-23T08:29:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2016-03-23T08:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automation.framework.runners.CukesTest@6debcae2]" name="tearDownClass" is-config="true" duration-ms="29" started-at="2016-03-23T08:29:26Z" finished-at="2016-03-23T08:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automation.framework.runners.CukesTest -->
+    </test> <!-- Tests in FF -->
+  </suite> <!-- run tests in parallel -->
+</testng-results>
